@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.beb996fd.chunk.css",
+    "main.js": "/portifolio/static/js/main.31140807.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.31140807.chunk.js.map",
+    "runtime-main.js": "/portifolio/static/js/runtime-main.70ed75e0.js",
+    "runtime-main.js.map": "/portifolio/static/js/runtime-main.70ed75e0.js.map",
+    "static/js/2.634b7441.chunk.js": "/portifolio/static/js/2.634b7441.chunk.js",
+    "static/js/2.634b7441.chunk.js.map": "/portifolio/static/js/2.634b7441.chunk.js.map",
+    "index.html": "/portifolio/index.html",
+    "static/css/main.beb996fd.chunk.css.map": "/portifolio/static/css/main.beb996fd.chunk.css.map",
+    "static/js/2.634b7441.chunk.js.LICENSE.txt": "/portifolio/static/js/2.634b7441.chunk.js.LICENSE.txt",
+    "static/media/css.4b2ee75f.png": "/portifolio/static/media/css.4b2ee75f.png",
+    "static/media/express.b44f5a4b.png": "/portifolio/static/media/express.b44f5a4b.png",
+    "static/media/fundo.a221b761.jpeg": "/portifolio/static/media/fundo.a221b761.jpeg",
+    "static/media/github.b32ef956.png": "/portifolio/static/media/github.b32ef956.png",
+    "static/media/html.3de4a8c5.png": "/portifolio/static/media/html.3de4a8c5.png",
+    "static/media/javascript.3199785f.png": "/portifolio/static/media/javascript.3199785f.png",
+    "static/media/linkedin.b328e9de.png": "/portifolio/static/media/linkedin.b328e9de.png",
+    "static/media/mongodb.fd82554b.svg": "/portifolio/static/media/mongodb.fd82554b.svg",
+    "static/media/mysql.b0c61470.png": "/portifolio/static/media/mysql.b0c61470.png",
+    "static/media/nodejs.007e99f6.png": "/portifolio/static/media/nodejs.007e99f6.png",
+    "static/media/project1.d6bdd711.png": "/portifolio/static/media/project1.d6bdd711.png",
+    "static/media/project2.f4bf6801.png": "/portifolio/static/media/project2.f4bf6801.png",
+    "static/media/project3.387a648f.png": "/portifolio/static/media/project3.387a648f.png",
+    "static/media/react.ae626225.svg": "/portifolio/static/media/react.ae626225.svg",
+    "static/media/styled-components.186b514d.png": "/portifolio/static/media/styled-components.186b514d.png",
+    "static/media/typescript.8e08c216.png": "/portifolio/static/media/typescript.8e08c216.png",
+    "static/media/whatsapp.69a72697.png": "/portifolio/static/media/whatsapp.69a72697.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70ed75e0.js",
+    "static/js/2.634b7441.chunk.js",
+    "static/css/main.beb996fd.chunk.css",
+    "static/js/main.31140807.chunk.js"
+  ]
+}
