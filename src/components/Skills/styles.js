@@ -5,7 +5,7 @@ export const Container = styled.div`
 
     h2
     {
-        margin-left: 10px;
+        text-align: center;
         font-family: 'Baskervville', san-serif;
     }
 `;

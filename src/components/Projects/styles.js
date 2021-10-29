@@ -3,16 +3,15 @@ import styled from "styled-components"
 export const Container = styled.div`
     h2
     {
-        margin-left: 10px;
+        text-align: center;
         font-family: 'Baskervville', san-serif;
     }
 
-    button 
+    a
     {
-        display: block;
-        margin: auto;
         margin-top: 15px;
 
+        text-decoration: none;
         background-color: #7CAFC4;
         color: #FFF;
         font-size: 12pt;
@@ -25,6 +24,12 @@ export const Container = styled.div`
         {
             background-color: #add8e6;
         }
+    }
+
+    .button
+    {
+        display: flex;
+        justify-content: center;
     }
 `;
 
@@ -54,16 +59,7 @@ export const ProjectsAreaItem = styled.div`
         justify-content: center;
     }
 
-    button 
-    {
-        background-color: #7CAFC4;
-        color: #FFF;
-        font-size: 12pt;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-    }
+
 
     @media screen and (max-width: 767px)
     {

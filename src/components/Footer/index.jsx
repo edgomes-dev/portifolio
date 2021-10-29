@@ -12,9 +12,9 @@ export const Footer = () =>
                 <p>(81) 98112-7202</p>
             </C.AreaLeft>
             <C.AreaRight>
-                <a href="https://www.linkedin.com/in/edgomesdev/"><img src={linkedinImg} all="" /></a>
-                <a href="https://github.com/edgomes-dev"><img src={githubImg} all="" /></a>
-                <a href="#"><img src={whatsappImg} all="" /></a>
+                <a href="https://www.linkedin.com/in/edgomesdev/" target="_blank"><img src={linkedinImg} alt="Linkedin" /></a>
+                <a href="https://github.com/edgomes-dev" target="_blank"><img src={githubImg} alt="Github" /></a>
+                <a href="https://wa.me/5581981127202" target="_blank"><img src={whatsappImg} alt="Whatsapp" /></a>
             </C.AreaRight>
         </C.Container>
     )

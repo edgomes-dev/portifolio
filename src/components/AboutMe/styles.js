@@ -7,7 +7,7 @@ export const Container = styled.div`
 
     @media screen and (max-width: 767px)
     {
-        display: block;
+        flex-direction: column;
     }
 `;
 
@@ -40,6 +40,10 @@ export const Img = styled.div`
 export const Aboutme = styled.div`
     height: 240px;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     h1
     {
@@ -47,13 +51,11 @@ export const Aboutme = styled.div`
         font-family: 'Baskervville', san-serif;
     }
 
-    p 
+    p
     {
-        margin-left: 5px;
-        margin-rigth: 5px;
-        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        text-align: center;
     }
-
 `;
 
 export const AboutContacts = styled.div`
