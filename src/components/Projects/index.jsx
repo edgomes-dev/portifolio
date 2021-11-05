@@ -74,6 +74,22 @@ export const Projects = () =>
                         </C.ItemButton>
                     </div>
                 </C.ProjectsAreaItem>
+                <C.ProjectsAreaItem>
+                    <img src={img4} alt="API nodejs" />
+                    <div>                        
+                        <h3>Hackathon Sebrae</h3>                            
+                        <C.ItemText>
+                            <p>A ideia do app é ajudar os comerciantes que estavam perdendo clientes devido aos protócolos de segurança impostos devido a covid-19</p>
+                            <p>Utilizei PHP, HTML e CSS na construção desse app, porém não foi bem construído por conta do prazo curto de  apenas 2 dias.</p>
+                            <p>Mas a experiência de trabalhar em equipe, realizar reuniões, debater ideias. A comunicação foi algo muito bom que eu aprendi, trabalhar em equipe de desenvolvimento.</p>
+                            <p>Além de utilizar o git e github de forma conjunta com outro companheiro de equipe.</p>            
+                        </C.ItemText>
+                        <C.ItemButton>
+                            <a href="https://rign0002.github.io/Hackathon-Sebrae/" target="-blank">Acessa o Site</a>
+                            <a href="https://github.com/rign0002/Hackathon-Sebrae" target="_blank">Código da aplicação</a>
+                        </C.ItemButton>
+                    </div>
+                </C.ProjectsAreaItem>
             </C.ProjectsArea>
             <div className="button">
                 <a href="https://github.com/edgomes-dev?tab=repositories" alt="Mais projetos" target="_blank">Mais projetos</a>
