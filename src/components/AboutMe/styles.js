@@ -8,6 +8,7 @@ export const Container = styled.div`
     @media screen and (max-width: 767px)
     {
         flex-direction: column;
+        gap: 0px;
     }
 `;
 
@@ -26,13 +27,13 @@ export const Img = styled.div`
 
     @media screen and (max-width: 767px)
     {
-        height: 200px;
+        height: 150px;
 
         .img
         {
             margin: auto;
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 150px;
         }
     }
 `;
@@ -45,9 +46,11 @@ export const Aboutme = styled.div`
     justify-content: center;
     align-items: center;
 
-    h1
+    h2
     {
-        margin-left: 5px;
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 0;
         font-family: 'Baskervville', san-serif;
     }
 

@@ -9,8 +9,7 @@ export const Container = styled.div`
 
     a
     {
-        margin-top: 15px;
-
+        margin-top: 5px;
         text-decoration: none;
         background-color: #7CAFC4;
         color: #FFF;
@@ -36,36 +35,66 @@ export const Container = styled.div`
 export const ProjectsArea = styled.div`
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 `;
 
 export const ProjectsAreaItem = styled.div`
     display: flex;
-    flex-direction: column;
 
     img
     {
         width: 487px;
-        height: 280px;
+        height: 300px;
         background-size: contain;
         background-repeat: no-repeat ;
     }
 
-    div
+    div 
     {
-        display: flex;
-        justify-content: center;
+        h3
+        {
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+
+        p 
+        {
+            margin: 5px 10px;
+        }
     }
-
-
 
     @media screen and (max-width: 767px)
     {
+        flex-direction: column;
+
         img
         {
             width: 100%;
+            height: 250px;
         }
+
+        div
+        {
+            h3
+            {
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+`;
+
+export const ItemText = styled.div``;
+
+export const ItemButton = styled.div`
+    justify-content: flex-end;
+    display: flex;
+    gap: 3px;
+
+    @media screen and (max-width: 767px)
+    {
+        justify-content: center;
     }
 `;
