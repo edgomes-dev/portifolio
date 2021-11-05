@@ -23,7 +23,7 @@ export const Projects = () =>
                         </C.ItemText>
                         <C.ItemButton>
                             <a href="https://edgomes-dev.github.io/multiform-react/" target="_blank">Acessar o Site</a>
-                            <a href="#">Código da aplicação</a>
+                            <a href="https://github.com/edgomes-dev/multiform-react" target="_blank">Código da aplicação</a>
                         </C.ItemButton>
                     </div>
                 </C.ProjectsAreaItem>
@@ -39,7 +39,7 @@ export const Projects = () =>
                         </C.ItemText>
                         <C.ItemButton>
                             <a href="https://edgomes-dev.github.io/gallery-react/" target="_blank">Acessar o Site</a>
-                            <a href="#">Código da aplicação</a>
+                            <a href="https://github.com/edgomes-dev/gallery-react" target="_blank">Código da aplicação</a>
                         </C.ItemButton>
                     </div>
                 </C.ProjectsAreaItem>
@@ -55,7 +55,7 @@ export const Projects = () =>
                         </C.ItemText>
                         <C.ItemButton>
                             <a href="https://edgomes-dev.github.io/dashboard-admin/" target="_blank">Acessar o Site</a>
-                            <a href="#">Código da aplicação</a>
+                            <a href="https://github.com/edgomes-dev/dashboard-admin" target="_blank">Código da aplicação</a>
                         </C.ItemButton>
                     </div>
                 </C.ProjectsAreaItem>
@@ -70,8 +70,7 @@ export const Projects = () =>
                             <p>Com auxilio do jsonwebtoken, gerando um token sempre que um usuário realiza login na aplicação, além de uuid para gerar um hash, assim não se repetindo usuários e tags.</p>
                         </C.ItemText>
                         <C.ItemButton>
-                            <a href="https://edgomes-dev.github.io/dashboard-admin/" target="_blank">Acessar o Site</a>
-                            <a href="#">Código da aplicação</a>
+                            <a href="https://github.com/edgomes-dev/project-node-valoriza" target="_blank">Código da aplicação</a>
                         </C.ItemButton>
                     </div>
                 </C.ProjectsAreaItem>
