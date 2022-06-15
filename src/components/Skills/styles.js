@@ -1,50 +1,79 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin-top: 50px;
+  margin-top: 8rem;
+  color: #fff;
 
-    h2
-    {
-        text-align: center;
-        font-family: 'Baskervville', san-serif;
-    }
+  h2 {
+    font-size: 2.4em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 3rem;
+  }
 `;
 
+export const Card = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+  column-gap: 35px;
+  row-gap: 30px;
 
-export const Skills = styled.div`
-    display: grid;
-    padding: 0px 10px;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-
-    @media screen and (max-width: 767px)
-    {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
-    }
+  @media screen and (max-width: 1000px) {
+    row-gap: 20px;
+    column-gap: 10px;
+    margin: none;
+  }
 `;
 
-export const SkillsItem = styled.div`
-    border: 1px solid #7CAFC4;
+export const CardItem = styled.div`
+  background-color: #202024;
+  padding: 1.5em;
+  display: flex;
+
+  section {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    gap: 15px;
-    align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    gap: 0.8em;
+  }
 
-    img
-    {
-        gap: 5px;
+  .title {
+    display: flex;
+    justify-content: space-between;
 
-        width: 50px;
-        height: 50px;
-        border-radius: 5px;
-        object-fit: contain;
+    p {
+      font-size: 1.5em;
+      font-weight: bolder;
+    }
+    span {
+      font-size: 1em;
     }
 
-    @media screen and (max-width: 767px)
-    {
-        padding: 5px;
+    img {
+      width: 3rem;
+      height: 3rem;
     }
+  }
+
+  @media screen and (max-width: 1000px) {
+    margin: 0 10px;
+    font-size: 1.2em;
+
+    .title {
+      p {
+        font-size: 2em;
+      }
+    }
+  }
+`;
+
+export const Knowledge = styled.div`
+  ul {
+    margin-top: 0.4em;
+    margin-left: 1.6em;
+  }
 `;

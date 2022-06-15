@@ -1,42 +1,40 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: #696969;
-    margin: 10px 0;
-    display: flex;
+  border-top: 2px solid ${(props) => props.theme.colors.primaryMain};
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 `;
 
 export const AreaLeft = styled.div`
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  color: #fff;
 
-    h3
-    {
-        margin: 0;
-        font-family: 'Baskervville', san-serif;
-    }
+  h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0;
+    font-family: 'Baskervville', san-serif;
 
-    p
-    {
-        margin: 0;
+    @media screen and (max-width: 767px) {
+      font-size: 1.5em;
     }
+  }
+
+  p {
+    margin: 0;
+  }
 `;
 
 export const AreaRight = styled.div`
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  a {
+    margin: 3px;
 
-    a
-    {
-        img 
-        {
-            margin-top: 5px;
-            width: 25px;
-            height: 25px;
-        }
+    img {
+      margin-top: 5px;
+      width: 25px;
+      height: 25px;
     }
+  }
 `;
