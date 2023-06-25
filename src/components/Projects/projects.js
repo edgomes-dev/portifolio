@@ -2,11 +2,35 @@ import project1 from '../../img/project1.png';
 import project2 from '../../img/project2.png';
 import project3 from '../../img/project3.png';
 import project5 from '../../img/project5.png';
-import project6 from '../../img/project6.png';
 import project7 from '../../img/project7.png';
 import nodeProject from '../../img/nodejs-project.png';
+import project8 from '../../img/construct.jpg';
 
 export const projectsData = [
+  {
+    title: 'Ed Burguer',
+    description:
+      'Estou desenvolvendo um sistema delivery para pequenas lanchonetes, estou fazendo ele do zero e aplicando diversos conceitos, como arquitetura de software, AWS, Docker e entre outros. Não estou disponibilizando no github porquê desejo revender, mas posso mostrar ele em uma entrevista',
+    technologies: [
+      'React',
+      'Typescript',
+      'Styled-components',
+      'React-Icons',
+      'Java',
+      'Spring',
+      'Docker',
+      'Composer',
+      'PostgreSQL',
+      'Node',
+      'Firebase'
+    ],
+    image: {
+      source: project8,
+      alt: 'Em construção'
+    },
+    github: '',
+    site: ''
+  },
   {
     title: 'Formulário multi etapas',
     description:
@@ -66,41 +90,6 @@ export const projectsData = [
     },
     github: 'https://github.com/rign0002/Hackathon-Sebrae',
     site: 'https://rign0002.github.io/Hackathon-Sebrae/'
-  },
-  {
-    title: 'API Phonebook',
-    description:
-      'API para uma agenda telefônica online, utilizando nodejs para fazer o CRUD e todos os serviços necessários.',
-    technologies: ['Nodejs', 'Typescript', 'Express', 'Cors', 'MongoDB'],
-    image: {
-      source: nodeProject,
-      alt: 'API Rest Phonebook'
-    },
-    github: 'https://github.com/edgomes-dev/api-phonebook/tree/main',
-    site: ''
-  },
-  {
-    title: 'Phonebook',
-    description:
-      'Este projeto é uma agenda telefônica online, utilzei o google contacts para me inspirar.',
-    technologies: [
-      'React',
-      'Axios',
-      'Moment',
-      'React-Icons',
-      'Redux Toolkit',
-      'Styled Components',
-      'Yup',
-      'React-Hook-Form',
-      'Eslint',
-      'Prettier'
-    ],
-    image: {
-      source: project6,
-      alt: 'Phonebook React'
-    },
-    github: 'https://github.com/edgomes-dev/PhonebookReact-js',
-    site: ''
   },
   {
     title: 'API CRUD NodeJS',

@@ -25,18 +25,18 @@ export const Container = styled.div`
   .btn {
     text-decoration: none;
     font-size: 1.6em;
+    font-weight: bold;
     background-color: ${(props) => props.theme.colors.primaryMain};
-    padding: 0.2em;
+    padding: 0.3rem;
     border-radius: 0.3em;
     width: 50%;
     text-align: center;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
     color: #fff;
     transition: 800ms;
 
     :hover {
       background-color: ${(props) => props.theme.colors.primaryBolder};
-      border: 1px solid #fff;
     }
   }
 

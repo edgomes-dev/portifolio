@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: 8rem;
   color: #fff;
 
   h2 {
@@ -66,6 +65,7 @@ export const Links = styled.div`
     display: flex;
     align-items: center;
     text-decoration: none;
+    font-weight: bold;
     gap: 2px;
     padding: 0.7em;
   }

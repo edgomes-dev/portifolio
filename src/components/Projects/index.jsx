@@ -22,10 +22,12 @@ export const Projects = () => {
               ))}
             </ul>
             <C.Links>
-              <a href={github} className="github" rel="noreferrer" target="_blank">
-                <BsGithub />
-                <p>Github</p>
-              </a>
+              {github && (
+                <a href={github} className="github" rel="noreferrer" target="_blank">
+                  <BsGithub />
+                  <p>Github</p>
+                </a>
+              )}
               {site && (
                 <a href={site} className="site" rel="noreferrer" target="_blank">
                   <TbWorld />

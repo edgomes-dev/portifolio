@@ -85,9 +85,10 @@ export const Aboutme = styled.div`
     right: 0;
     bottom: 0;
     text-decoration: none;
+    font-weight: bold;
     font-size: 1.6em;
     background-color: ${(props) => props.theme.colors.primaryMain};
-    padding: 0.2em;
+    padding: 0.3rem 1.5rem;
     border-radius: 0.3em;
     text-align: center;
     color: #fff;
@@ -95,7 +96,6 @@ export const Aboutme = styled.div`
 
     :hover {
       background-color: ${(props) => props.theme.colors.primaryBolder};
-      border: 1px solid #fff;
     }
 
     @media screen and (max-width: 767px) {

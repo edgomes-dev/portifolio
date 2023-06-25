@@ -11,7 +11,7 @@ export const Presentation = () => {
       <C.Text>
         <p>Olá, eu sou</p>
         <span>Ed Gomes</span>
-        <p className="subtitle">Desenvolvedor fullstack</p>
+        <p className="subtitle">Desenvolvedor FullStack</p>
         <a href="#project" className="btn">
           Meus projetos
         </a>

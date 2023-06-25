@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 40vw;
-  margin: 5rem auto;
+  margin: 8rem auto;
   background-color: #202024;
   padding: 10px;
   display: flex;
@@ -84,16 +84,17 @@ export const Button = styled.div`
   .btn {
     margin: 8px auto;
     font-size: 1.2em;
+    font-weight: bold;
     background-color: ${(props) => props.theme.colors.primaryMain};
-    padding: 0.2em;
+    padding: 0.3rem 1.6rem;
     border: none;
     border-radius: 0.3em;
     color: #fff;
     transition: 800ms;
+    cursor: pointer;
 
     :hover {
       background-color: ${(props) => props.theme.colors.primaryBolder};
-      border: 1px solid #fff;
     }
   }
 `;
