@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 8rem;
 
   //Mobile
@@ -66,6 +67,7 @@ export const Aboutme = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-bottom: 5rem;
   }
 
   h2 {

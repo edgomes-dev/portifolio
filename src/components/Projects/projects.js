@@ -4,13 +4,13 @@ import project3 from '../../img/project3.png';
 import project5 from '../../img/project5.png';
 import project7 from '../../img/project7.png';
 import nodeProject from '../../img/nodejs-project.png';
-import project8 from '../../img/construct.jpg';
+import project8 from '../../img/project-edburguer.png';
 
 export const projectsData = [
   {
     title: 'Ed Burguer',
     description:
-      'Estou desenvolvendo um sistema delivery para pequenas lanchonetes, estou fazendo ele do zero e aplicando diversos conceitos, como arquitetura de software, AWS, Docker e entre outros. Não estou disponibilizando no github porquê desejo revender, mas posso mostrar ele em uma entrevista',
+      'Estou desenvolvendo um sistema delivery para pequenas lanchonetes, estou fazendo ele do zero e aplicando diversos conceitos, como arquitetura de software, Docker e entre outros. Esse projet ainda está em desenvolvimento, por isso não tem website no ar',
     technologies: [
       'React',
       'Typescript',
@@ -28,7 +28,7 @@ export const projectsData = [
       source: project8,
       alt: 'Em construção'
     },
-    github: '',
+    github: 'https://github.com/edgomes-dev/ed-burguer',
     site: ''
   },
   {

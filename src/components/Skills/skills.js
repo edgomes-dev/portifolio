@@ -94,7 +94,7 @@ export const skillsData = [
       sourceImg: javaImg,
       alt: 'Java'
     },
-    knowledge: ['JDBC', 'JSF', 'JPA', 'Spring Boot', 'JUnit 5']
+    knowledge: ['JDBC', 'JSF', 'JPA', 'Spring Boot | Data | Security', 'JUnit 5']
   },
   {
     title: 'PHP',

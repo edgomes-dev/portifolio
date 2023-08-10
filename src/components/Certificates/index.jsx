@@ -21,7 +21,7 @@ export const Certificates = () => {
       <S.Content>
         <Slider {...settings}>
           {imagesMock.map((element) => (
-            <ImageComponent key url={element.url} alt={element.alt} />
+            <ImageComponent key={element.url} url={element.url} alt={element.alt} />
           ))}
         </Slider>
       </S.Content>
